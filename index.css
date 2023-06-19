@@ -1,5 +1,5 @@
 .mainPage {
-   border: 1px solid;
+  
     width: 1300px;
     height: 100%;
     margin-left: auto;
@@ -12,8 +12,8 @@
     width: 660px;
     height: 100%;
     font-family:'Times New Roman', Times, serif;
-
-
+    filter: drop-shadow(4px 5px 3px);
+    border-radius: 5px;
 }
 
 .aTag{
@@ -158,13 +158,13 @@ padding-top: 20px;
 .rightSidePanel {
    
     width: 100%;
-    height: 100%;
+   
 
 }
 
 .rightSidePanel  {
    
-  border: 1px solid black;
+ background-color: rgb(215, 226, 226);
 
 
 }
@@ -195,10 +195,7 @@ padding-top: 20px;
 
 }
 
-.ExperianceParent , .EducationParent{
 
-    border: 1px solid black;
-}
 
 .ExperianceParent, .EducationParent {
 margin-top: 100px;
