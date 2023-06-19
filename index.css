@@ -11,7 +11,7 @@
     background-color: rgb(58, 56, 56);
     width: 660px;
     height: 100%;
-   
+    font-family:'Times New Roman', Times, serif;
 
 
 }
@@ -25,7 +25,7 @@
 }
 
 .aTag:hover{
- filter: drop-shadow(3px 3px 1px rgb(0, 0, 0));
+ filter: drop-shadow(4px 5px 2px rgb(0, 0, 0));
  transform: scale(1.1);
  
    
@@ -37,12 +37,6 @@
    
 }
 
-.leftSidePanel {
-    
-
-
-
-}
 
 .img{
     width: 56%;
@@ -98,6 +92,7 @@ padding-top: 20px;
 .logo:hover{
     transform: scale(1.1);
     cursor: pointer;
+    filter: drop-shadow(4px 5px 2px rgb(0, 0, 0));
 }
 
 .iconDiv{
@@ -134,11 +129,13 @@ padding-top: 20px;
 .skillDiv{
     display: inline-block;
     margin-bottom: 20px;
+
    
 }
 
 .skillName{
     font-size: 22px;
+    
 }
 
 .followMeParent{
@@ -159,8 +156,78 @@ padding-top: 20px;
 
 
 .rightSidePanel {
-    background-color: rgb(251, 219, 219);
+   
     width: 100%;
     height: 100%;
 
+}
+
+.rightSidePanel  {
+   
+  border: 1px solid black;
+
+
+}
+
+.nameDiv {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    left: 25%;
+    margin-top: 50px;
+    filter: drop-shadow(2px 5px 5px);
+
+}
+
+
+.name{
+    font-size: 60px;
+}
+
+.major{
+    font-size: 30px;
+}
+
+.ExperianceParent  img, .EducationParent img{
+
+    width: 35px;
+
+
+}
+
+.ExperianceParent , .EducationParent{
+
+    border: 1px solid black;
+}
+
+.ExperianceParent, .EducationParent {
+margin-top: 100px;
+margin-left: 50px;
+}
+
+.iconAndTextDivs {
+    display: inline-flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+.iconAndTextDivs div{
+    margin: 7px;
+}
+
+.hrLineRightPanel{
+
+    border: 1px solid;
+    height: 1px;
+    background-color: black;
+    margin-top: 0px;
+
+}
+
+.timelineAndInfo .educationInfo {
+
+    margin: 20px 0px;
 }
